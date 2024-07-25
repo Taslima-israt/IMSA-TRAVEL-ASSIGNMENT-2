@@ -77,12 +77,24 @@
 .img-container{
     display: grid;
  grid-template-columns: repeat(2,frd);
-
+}
  .img-container img{
 
-    width: 100%;
+
  }
 
+
+
+
+
+
+
+
+
+
+
+
+ 
 /* new-sletter-container style css */
 
 .new-sletter-container {
