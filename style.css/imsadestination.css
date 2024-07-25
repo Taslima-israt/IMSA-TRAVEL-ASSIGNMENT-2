@@ -1,0 +1,193 @@
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+
+
+/* shared styles */
+.primary-button {
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+
+    font-weight: 800;
+    padding: 14px, 18px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 84, 0);
+
+
+}
+
+.common-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+
+
+}
+
+
+
+
+/* Tour Section */
+.tour-container {
+
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    gap: 60px;
+
+
+}
+
+.tour-text-container h3 {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+
+.Destination-container {
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.des-text {
+
+  
+}
+
+
+.des-text h2 {
+
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.img-container{
+    display: grid;
+ grid-template-columns: repeat(2,frd);
+
+ .img-container img{
+
+    width: 100%;
+ }
+
+/* new-sletter-container style css */
+
+.new-sletter-container {
+display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    justify-content: space-between;
+
+}
+
+.sletter-text h3 {
+
+    color: rgb(19, 19, 24);
+
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.new-sletter-container .common-description {
+    border-bottom: 3px solid rgba(19, 19, 24, 0.1);
+    padding-bottom: 20px;
+
+}
+
+.sletter-text {
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+
+    padding: 40px;
+    margin-right: 24px;
+}
+
+
+.sletter-img img {
+
+    width: 100%;
+}
+
+
+.NE-input {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    border-color: white;
+    border-radius: 5px;
+    border-style: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+
+
+
+
+
+/* Mobile Device Responsive  */
+@media screen and (max-width: 576px) {
+
+    .tour-container,
+    .new-sletter-container {
+        flex-direction: column;
+    }
+
+
+
+    .tour-container,
+    .new-sletter-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .tour-text-container h3 {
+        font-size: 20px;
+    }
+
+    .tour-image img {
+        width: 100%;
+    }
+
+
+    .sletter-text {
+
+        width: 75%;
+        padding-left: 10px;
+    }
+
+    .sletter-img img {
+        margin-top: 20px;
+        width: 100%;
+
+
+    }
+
+    .primary-button {
+        align-items: normal;
+        font-size: 15PX;
+        width: 170px;
+        height: 50px;
+    }
+
+    /* 
+    .sletter-text {
+
+        
+    } */
+
+}
