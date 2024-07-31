@@ -26,13 +26,13 @@
     font-weight: 400;
 }
 
-.nav-title{
+.nav-title {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
- 
+
 }
 
 nav>ul {
@@ -50,11 +50,99 @@ nav a {
     padding-right: 44px;
 
 }
-nav a :hover{
-    
+
+nav a :hover {}
+
+
+
+
+.header {}
+
+.banner {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-img {
+    display: block;
+    margin: 50px auto;
+    width: 70%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
 
 
+
+.banner-description {
+    color: rgb(255, 255, 255);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.header-input {
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+
+
+}
+
+input {
+    margin-top: 16px;
+
+    text-align: left;
+    padding-left: 5px;
+    width: 174px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    height: 52px;
+    border-radius: 8px;
+    border-style: none;
+
+
+}
+
+.find-button {
+    color: rgb(255, 255, 255);
+  
+    font-size: 16px;
+    font-weight: 700;
+  
+    text-align: center;
+    border-radius: 8px;
+
+    background: rgb(255, 84, 0);
+    width: 174px;
+    height: 52px;
+
+}
 
 
 /* <!-- Destination section --> */
@@ -248,7 +336,8 @@ nav a :hover{
 
     .NE-input {
         margin-bottom: 20px;
-            width: 100%;}
+        width: 100%;
+    }
 
     .primary-button {
         align-items: normal;
@@ -260,9 +349,10 @@ nav a :hover{
 
 
     .img-container {
-         gap: 5px;
+        gap: 5px;
 
     }
+
     .First-column img,
     .Second-column img,
     .Third-column img,
@@ -270,36 +360,27 @@ nav a :hover{
         width: 335px;
         height: 176px;
         padding-left: 20px;
-        margin-bottom: 8px;       
+        margin-bottom: 8px;
     }
 
 
     .des-text {
         justify-content: center;
-        text-align: center;}
-    
-        .des-text h2 {
-            color: rgb(19, 19, 24);
-            font-size: 20px;
-            font-weight: 800;
-            margin-top: 30px;
+        text-align: center;
     }
 
-    .des-text common-description{
-    
+    .des-text h2 {
+        color: rgb(19, 19, 24);
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 30px;
+    }
+
+    .des-text common-description {
+
         font-size: 14px;
     }
 
 
 
 }
-
-
-
-
-
-
-
-
-    
-
